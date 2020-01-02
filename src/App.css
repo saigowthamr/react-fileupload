@@ -1,38 +1,42 @@
 .App {
-  text-align: center;
+    margin: 2rem auto;
+    max-width: 800px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+img{
+  width: 500px;
+  height: 500px;
+  object-fit: contain;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.progessBar{
+  height: 1rem;
+  width: 0%;
+  background-color: rgb(68, 212, 231);
+  color: white;
+  padding:2px
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.file-upload{
+
+  box-shadow: 2px 2px 2px 2px #ccc;
+  padding: 2rem;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+  justify-content: space-between;
+  font-size: 1rem;
 }
 
-.App-link {
-  color: #61dafb;
+input , div , button{
+  margin-top: 2rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.upbutton{
+   width: 5rem;
+   padding: .5rem;
+   background-color: #2767e9;
+   color: aliceblue;
+   font-size: 1rem;
+   cursor: pointer;
 }
